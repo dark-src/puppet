@@ -1,0 +1,6 @@
+node 'demo' {
+  include nginx
+  package { 'tree':
+    ensure => installed,
+  }
+}
