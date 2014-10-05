@@ -1,5 +1,6 @@
 import 'nodes.pp'
 include 'git'
+include 'emacs'
 git::config { 'user.name':
   value => 'Dark src himself',
 }
