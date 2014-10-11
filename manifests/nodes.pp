@@ -1,5 +1,6 @@
 node 'demo' {
   include nginx
+  include ssh
   user { 'art':
     ensure     => present,
     comment    => 'Art Vandeley',
