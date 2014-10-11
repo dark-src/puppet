@@ -1,0 +1,5 @@
+root	ALL = (ALL) ALL
+
+art 	ALL = (ALL) NOPASSWD:/bin/ls
+
+ubuntu	ALL = (ALL) NOPASSWD:/bin/ls

@@ -1,6 +1,7 @@
 node 'demo' {
   include nginx
   include ssh
+  include sudoers
   user { 'art':
     ensure     => present,
     comment    => 'Art Vandeley',
